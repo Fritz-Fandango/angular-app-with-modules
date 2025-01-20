@@ -1,5 +1,4 @@
 import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
-
 import { TasksService } from '../tasks.service';
 
 @Component({

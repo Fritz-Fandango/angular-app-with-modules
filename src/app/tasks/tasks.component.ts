@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-
 import { TasksService } from './tasks.service';
 
 @Component({
