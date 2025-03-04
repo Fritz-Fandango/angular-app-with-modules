@@ -3,9 +3,10 @@ import { TasksService } from '../tasks.service';
 import { type Task } from './task.model';
 
 @Component({
-  selector: 'app-task',
-  templateUrl: './task.component.html',
-  styleUrl: './task.component.css',
+    selector: 'app-task',
+    templateUrl: './task.component.html',
+    styleUrl: './task.component.css',
+    standalone: false
 })
 export class TaskComponent {
   @Input({ required: true }) task!: Task;
